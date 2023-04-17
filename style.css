@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=MuseoModerno:wght@400;600&family=Pacifico&family=Poppins:wght@300;500&display=swap');
+
 *{
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
+
 body{
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: poppins;
+	color: white;
+	width: 100vw;
 }
+
+main{
+	background-color: #191919;
+}
+
 #home{
 	background-color: #2d116f;
 	display: flex;
@@ -14,15 +24,16 @@ body{
 	padding-top: 15px;
 	padding-bottom: 10px;
 	padding-inline: 30px;
-	height: 50px;
-	width: 100%;
+	height: 10vh;
+	width: 100vw;
 }
 
 #logo-text p a{
 	align-items: flex-start;
 	text-decoration: none;
 	color: white;
-	font-family:'Times New Roman', Times, serif;
+	font-family:'MuseoModerno';
+	font-weight: 600;
 }
 
 #logo-text:hover p a{
@@ -36,7 +47,7 @@ li{
 	list-style-type: none;
 }
 #header-menu{
-	justify-items: flex-end;
+	justify-items: flex-end;	
 }
 .pages{
 	display: flex;
@@ -75,11 +86,14 @@ li{
 #headline{
 	padding: 100px;
 	padding-inline: 30px;
-	background-color: white ;
 	display: flex;
 	justify-content: space-between;
 	font-size: 1.5em;
 	align-items: center;
+	background-color: #0a0a0a;
+	font-family: poppins;
+	height: 90vh;
+	width: 100vw;
 }
 
 #headline-text{
@@ -92,10 +106,12 @@ li{
 
 #headline-image img{
 	width: 100%;
+	animation: fadeIn 5s;
 
 }
 
 section{
+	width: 100vw;
 	padding: 30px;
 	background-color:  #dc8d04;
 }
