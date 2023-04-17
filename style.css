@@ -1,0 +1,147 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+#home{
+	background-color: #2d116f;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	padding-inline: 30px;
+	height: 50px;
+	width: 100%;
+}
+
+#logo-text p a{
+	align-items: flex-start;
+	text-decoration: none;
+	color: white;
+	font-family:'Times New Roman', Times, serif;
+}
+
+#logo-text:hover p a{
+	align-items: flex-start;
+	text-decoration: none;
+	color: #dc8d04;
+}
+
+li{
+	text-decoration: none;
+	list-style-type: none;
+}
+#header-menu{
+	justify-items: flex-end;
+}
+.pages{
+	display: flex;
+	gap: 15px;
+	list-style: none;
+	text-decoration: none;
+}
+.pages li, .pages li a{
+	color: white;
+	text-decoration: none;
+}
+.pages:hover li  .pages li a{
+	color: #dc8d04;
+	text-decoration: none;
+}
+
+.pages-categories{
+	display: none;
+}
+
+#header-categories:hover .pages-categories, .pages-categories li{
+	display:flex;
+	flex-direction: column;
+	color: black;
+	background-color: white;
+	padding-inline: 2px;
+	padding-block: 2px;
+	margin-top: 4px;
+	font-size: 14px;
+}
+
+.pages-categories li{
+	color: black;
+	text-decoration: none;
+}
+#headline{
+	padding: 100px;
+	padding-inline: 30px;
+	background-color: white ;
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.5em;
+	align-items: center;
+}
+
+#headline-text{
+	width: 40%;
+}
+
+#headline-image{
+	width: 40%;
+}
+
+#headline-image img{
+	width: 100%;
+
+}
+
+section{
+	padding: 30px;
+	background-color:  #dc8d04;
+}
+#promoPuma{
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+.promo-products{
+	background-color:  #2d116f; 
+	color:white;
+	padding: 10px;
+	width: 25%;
+}
+.promo-products:hover{
+	background-color:  #2d116f; 
+	color:white;
+	padding: 10px;
+	width: 25.2%;
+	border-right: 3px solid white;
+
+}
+
+#logo-text-footer a{
+	text-decoration: none;
+	color: white;
+	margin-bottom: 30x;
+}
+#contactUs{
+	padding: 30px;
+	background-color: #5c5c5c;
+}
+
+.contact-method{
+	color: #2d116f ;
+}
+
+.card{
+	background-color: #c28bf9;
+	padding: 10px;
+	width: 35%
+}
+
+.card:hover{
+	background-color: #c28bf9;
+	padding: 10px;
+	border-right: 3px solid  #2d116f ;
+	width: 35.20%
+}
