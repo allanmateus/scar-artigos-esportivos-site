@@ -17,7 +17,7 @@ main{
 }
 
 #home{
-	background-color: #2d116f;
+	background-color: #000000;
 	display: flex;
 	justify-content: space-between;
 	align-content: center;
@@ -113,7 +113,7 @@ li{
 section{
 	width: 100vw;
 	padding: 30px;
-	background-color:  #dc8d04;
+	background-color:  #3d47c5;
 }
 #promoPuma{
 	display: flex;
@@ -142,7 +142,7 @@ section{
 }
 #contactUs{
 	padding: 30px;
-	background-color: #5c5c5c;
+	background-color: #000000;
 }
 
 .contact-method{
@@ -150,14 +150,14 @@ section{
 }
 
 .card{
-	background-color: #c28bf9;
+	background-color: #000000;
 	padding: 10px;
 	width: 35%
 }
 
 .card:hover{
-	background-color: #c28bf9;
+	background-color: #000000;
 	padding: 10px;
-	border-right: 3px solid  #2d116f ;
+	border-right: 3px solid  #ffffff ;
 	width: 35.20%
 }
